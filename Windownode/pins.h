@@ -28,8 +28,8 @@
 #define LIMIT_CLOSE_PIN       GPIO_NUM_26   // Digital input
 
 /* --- BTS7960 Motor Driver --- */
-#define MOTOR_RPWM_PIN        GPIO_NUM_16   // PWM capable — confirm not WROVER/PSRAM pin
-#define MOTOR_LPWM_PIN        GPIO_NUM_17   // PWM capable — confirm not WROVER/PSRAM pin
+#define MOTOR_RPWM_PIN        GPIO_NUM_32   // PWM capable — confirm not WROVER/PSRAM pin
+#define MOTOR_LPWM_PIN        GPIO_NUM_33   // PWM capable — confirm not WROVER/PSRAM pin
 #define MOTOR_REN_PIN         GPIO_NUM_27   // Digital output
 #define MOTOR_LEN_PIN         GPIO_NUM_14   // Digital output
 
